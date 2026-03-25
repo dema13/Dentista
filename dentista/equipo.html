@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Equipo</title>
+
+<style>
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #3d3da6;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* CONTENEDOR */
+.container {
+    background: #f2f2f2;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+}
+
+
+.card img {
+    width: 220px;
+    
+}
+
+.card h3 {
+    margin-top: 20px;
+    color: #2c2c6c;
+    font-weight: normal;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <ul>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicio.html">Servicios</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="doc1.png">
+            <h3>Dra. Maria Perez</h3>
+        </div>
+
+        <div class="card">
+            <img src="doc2.png">
+            <h3>Dra. Alma Gutierrez</h3>
+        </div>
+
+        <div class="card">
+            <img src="doc3.png">
+            <h3>Dra. Jimena Ruiz</h3>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
