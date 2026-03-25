@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Servicios</title>
+
+<style>
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #3d3da6;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* CONTENEDOR */
+.container {
+    background: #f2f2f2;
+    min-height: 90vh;
+    padding: 60px 80px;
+    
+}
+
+/* HEADER (LOGO + TEXTO) */
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    max-width: 600px;
+    margin: auto;
+    color: #2c2c6c;
+    line-height: 1.6;
+}
+
+/* GRID SERVICIOS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: center;
+     margin-top: 80px;
+}
+
+/* ITEM */
+.item img {
+    width: 110px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #2c2c6c;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <ul>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicio.html">Servicios</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+
+    <!-- LOGO + TEXTO -->
+    <div class="header">
+        <img src="DENTISTA azul.png">
+
+        <p>
+        Expertos en salud dental integral, combinamos tecnología avanzada y atención personalizada
+        para cuidar tu bienestar bucal. Recupera la confianza y la estética de tu sonrisa con tratamientos
+        preventivos y restauradores de alta calidad.
+        </p>
+
+        <p style="margin-top: 15px;">
+        Salud, estética y confianza en un solo lugar.
+        </p>
+    </div>
+
+    <!-- SERVICIOS -->
+    <div class="grid">
+
+        <div class="item">
+            <img src="preventiva.png">
+            <p>Odontología Preventiva</p>
+        </div>
+
+        <div class="item">
+            <img src="Endodoncia.png">
+            <p>Endodoncia</p>
+        </div>
+
+        <div class="item">
+            <img src="estetica.png">
+            <p>Estética Dental</p>
+        </div>
+
+        <div class="item">
+            <img src="rehabilitacion.png">
+            <p>Rehabilitación Oral</p>
+        </div>
+
+        <div class="item">
+            <img src="ortodoncia.png">
+            <p>Ortodoncia</p>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
